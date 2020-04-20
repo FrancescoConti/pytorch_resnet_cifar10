@@ -31,7 +31,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.nn.init as init
-from nemo.quant.pact import PACT_IntegerAdd
+import nemo
 
 from torch.autograd import Variable
 
